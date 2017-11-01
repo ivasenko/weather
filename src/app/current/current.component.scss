@@ -1,0 +1,16 @@
+@import '../styles/common';
+@import '../styles/form';
+
+
+.container, form{
+  text-align: center;
+}
+.currentWeatherForm{
+  @extend .form;
+}
+.currentWeatherForm-input{
+  @extend  .form-input;
+}
+.currentWeatherForm-btn{
+  @extend .form-btn;
+}
